@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -18,6 +14,11 @@ body {
 .principal {
     background-color: #290742;
     border-bottom: .5rem solid #4fff4b;
+    padding: 0 1rem;
+}
+
+.rodape {
+    padding: 0 1rem;
 }
 
 header {
@@ -102,7 +103,6 @@ h1 {
     color: white;
     line-height: 1.8rem;
     text-align: justify;
-    padding-right: 2rem;
 }
 
 .vejamais a {
@@ -114,6 +114,7 @@ h1 {
     font-size: 1.1rem;
     padding-top: 1rem;
     gap: .5rem;
+    margin-bottom: 2rem;
 }
 
 .homeimage img {
@@ -159,6 +160,11 @@ article {
     padding: .75rem 0;
 }
 
+h3 a {
+    text-decoration: none;
+    color: #290742;
+}
+
 .articletext p {
     font-weight: 400;
     font-size: .9rem;
@@ -185,6 +191,11 @@ article {
     font-weight: 700;
     font-size: 1.6rem;
     padding-bottom: .75rem;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #290742;
 }
 
 .articleright h3 {
@@ -249,67 +260,65 @@ section img {
     text-align: justify;
 }
 
+.menu a:hover {
+    border-left: .25rem solid #4fff4b;
+    padding-left: .5rem;
+    transition: .3s;
+}
+
 .menu-toggle {
     float: right;
-    color: #290742;
+    color :white;
     background-color: #9e6dc2;
-    border: solid 1px #777;
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px 20px;
-    margin: 20px 15px;
+    border: .1rem solid #9e6dc2;
+    border-radius: .35rem;
+    height: 2.5rem;
+    padding: .65rem 1.25rem;
 }
 
 
-@media only screen and (max-width: 920px)  {
+/*  */
+
+
+@media only screen and (max-width: 970px)  {
     .hometexto {
         max-width: 100%;
-        background: green;
         text-align: center;
     }
 
     .homeimage {
         width: 100%;
-        background: orange;
 
         display: flex;
         justify-content: center;
     }
 }
 
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 780px)  {
     .hometexto {
         max-width: 100%;
-        background: blue;
         text-align: center;
     }
 
     .homeimage {
         width: 100%;
-        background: pink;
 
         display: flex;
         justify-content: center;
+    }
+
+    .search {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 605px)  {
     .hometexto {
         max-width: 100%;
-        background: red;
     }
 
     .homeimage {
         width: 100%;
-        background: yellow;
         
         display: flex;
         justify-content: center;
@@ -318,14 +327,14 @@ section img {
     .menu {
         display: none;
     }
+
+    article, section {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 604px) {
     .menu-toggle {
         display: none;
     }
-
 }
-
-
-
