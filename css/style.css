@@ -5,10 +5,6 @@
 }
 
 .container {
-<<<<<<< HEAD
-    /* border: 1px solid greenyellow; */
-=======
->>>>>>> modifications
     display: flex;
     flex-direction: column;
     max-width: 1024px;
@@ -17,15 +13,12 @@
 
 .principal {
     background-color: #290742;
-<<<<<<< HEAD
-=======
     border-bottom: .5rem solid #4fff4b;
     padding: 0 1rem;
 }
 
 .rodape {
     padding: 0 1rem;
->>>>>>> modifications
 }
 
 header {
@@ -38,11 +31,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
-    padding: 7rem 0;
-=======
     padding: 6rem 0 3rem;
->>>>>>> modifications
     gap: 1rem;
 }
 
@@ -89,10 +78,6 @@ input + img {
 
 
 .home {
-<<<<<<< HEAD
-    /* border: 1px solid white; */
-=======
->>>>>>> modifications
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -100,10 +85,6 @@ input + img {
 }
 
 .hometexto {
-<<<<<<< HEAD
-
-=======
->>>>>>> modifications
     display: flex;
     flex-wrap: wrap;
     max-width: 38%;
@@ -279,12 +260,6 @@ section img {
     text-align: justify;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 600px)  {
-    .hometexto {
-        max-width: 100%;
-        background: red;
-=======
 .menu a:hover {
     border-left: .25rem solid #4fff4b;
     padding-left: .5rem;
@@ -319,7 +294,7 @@ section img {
     }
 }
 
-@media only screen and (max-width: 780px)  {
+@media only screen and (max-width: 815px)  {
     .hometexto {
         max-width: 100%;
         text-align: center;
@@ -361,6 +336,5 @@ section img {
 @media (min-width: 604px) {
     .menu-toggle {
         display: none;
->>>>>>> modifications
     }
 }
