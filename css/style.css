@@ -10,9 +10,14 @@ body {
 
 .container {
     /* border: 1px solid greenyellow; */
-    
     display: flex;
     flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.principal {
+    background-color: #290742;
 }
 
 header {
@@ -28,7 +33,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 7rem 16rem 2rem;
+    padding: 7rem 0;
     gap: 1rem;
 }
 
@@ -76,15 +81,13 @@ input + img {
 
 .home {
     /* border: 1px solid white; */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2rem 16rem;
+    padding: 2rem 0;
 }
 
 .hometexto {
-    /* border: 1px solid white; */
 
     display: flex;
     flex-wrap: wrap;
@@ -285,4 +288,11 @@ section {
     line-height: 1.5rem;
     text-align: justify;
     padding-right: .6rem;
+}
+
+@media only screen and (max-width: 600px)  {
+    .hometexto {
+        max-width: 100%;
+        background: red;
+    }
 }
