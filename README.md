@@ -16,7 +16,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ## Recursos adicionais 
 
 A fim de tornar o projeto mais acessível, o mesmo foi realizado com responsividade para todos os tamanhos de tela.
-Computer.
 
 ## Layout
 
@@ -27,6 +26,6 @@ Computer.
 Você pode visualizar o layout do projeto clicando [aqui](<https://www.figma.com/file/6n4ZFrbS8vu6SfyHmpcQLh/DD-%2F-RocketBlog-(Copy)?node-id=3%3A2>).
 
 <h4 align="center"> 
-	🚧  em construção  🚧
+	🚧  em construção  🚧 <br>
 	ao finalizar os estudos sobre as próximas linguagens, o website será totalmente funcional.
 </h4>
