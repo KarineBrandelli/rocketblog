@@ -2,20 +2,20 @@
 
 ![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
 
-## About
+## Descrição
 
-The page represents an e-commerce of mini sports shoes. It was developed as a way to test the skills and knowledge developed in the Discover program, available for free on [Rocketseat](https://www.rocketseat.com.br/).
+A página representa um blog de notícias sobre tencologia e programação. Foi desenvolvido a partir do conhecimento obtido no programa Discover, disponível gratuitamente no site da [Rocketseat](https://www.rocketseat.com.br/).
 
-## Technologies
+## Tecnologias
 
-This project was developed with the following technologies:
+O projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
 
-## Additional features 
+## Recursos adicionais 
 
-We add the "responsive design" to make the project more accessible. You can access it by smartphone, tablet or
+A fim de tornar o projeto mais acessível, o mesmo foi realizado com responsividade para todos os tamanhos de tela.
 Computer.
 
 ## Layout
@@ -24,8 +24,9 @@ Computer.
   <img src= "/">
 <p>
 
-You can view the project layout through [here](<https://www.figma.com/file/z8l4BUpsJbUHH7B5SjySPD/DD-%2F-RocketShoes-(Copy)?node-id=0%3A1>).
+Você pode visualizar o layout do projeto clicando [aqui](<https://www.figma.com/file/6n4ZFrbS8vu6SfyHmpcQLh/DD-%2F-RocketBlog-(Copy)?node-id=3%3A2>).
 
 <h4 align="center"> 
 	🚧  em construção  🚧
+	ao finalizar os estudos sobre as próximas linguagens, o website será totalmente funcional.
 </h4>
