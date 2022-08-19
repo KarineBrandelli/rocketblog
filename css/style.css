@@ -138,6 +138,7 @@ article {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: justify;
     flex: 1;
 }
 
@@ -169,13 +170,13 @@ h3 a {
     font-weight: 400;
     font-size: .9rem;
     line-height: 1.75rem;
-    text-align: justify;
 }
 
 .articleright {  
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: justify;
     flex: 1;
 }
 
