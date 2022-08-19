@@ -20,7 +20,7 @@ A fim de tornar o projeto mais acessível, o mesmo foi realizado com responsivid
 ## Layout
 
 <p align="center">
-  ![Cover image](../cover.png)
+  <img src="../cover.png">
 <p>
 
 Você pode visualizar o layout do projeto clicando [aqui](<https://www.figma.com/file/6n4ZFrbS8vu6SfyHmpcQLh/DD-%2F-RocketBlog-(Copy)?node-id=3%3A2>).
