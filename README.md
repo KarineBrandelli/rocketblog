@@ -2,6 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
 
+<img src ="../cover.png>
 ![Cover image](../cover.png)
 
 ## Descrição do Projeto
